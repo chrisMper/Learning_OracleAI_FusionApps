@@ -62,12 +62,13 @@ Notes for the course Oracle AI Agent Studio for Fusion Applications offered by O
 
 ### Agentic Patterns - Understanding Workflow Agents
 
-|              | Workflow Agents | Hierarchical Agents |
-|Execution Model| Policy-bound orchestration with contextual reasoning | LLM-led decomposition with delegated specialists|
-|Optimized for | Predictability, auditability, SLA stability | Discovery, planning, synthesis under uncertainity|
-|Best fit | Structured processes where rules/policies are known and outcomes must repeat | Ambiguous problems with many possible paths and evolving goals |
-| Strengths | End-to-end steps, approvals, retries, state management, traceability |
-| Primary goal | Consistent, compliant outcomes at scale | Find the right plan/ answer under uncertainity|
+| | Workflow Agents | Hierarchical Agents |
+|---|---|---|
+| **Execution Model** | Policy-bound orchestration with contextual reasoning | LLM-led decomposition with delegated specialists |
+| **Optimized for** | Predictability, auditability, SLA stability | Discovery, planning, synthesis under uncertainty |
+| **Best fit** | Structured processes where rules/policies are known and outcomes must repeat | Ambiguous problems with many possible paths and evolving goals |
+| **Strengths** | End-to-end steps, approvals, retries, state management, traceability | |
+| **Primary goal** | Consistent, compliant outcomes at scale | Find the right plan/answer under uncertainty |
 
 - Static rule-based workflow engines can execute sequences, but,
   - Can't reason or infer from context
