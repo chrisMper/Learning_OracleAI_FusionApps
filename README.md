@@ -58,8 +58,48 @@ Notes for the course Oracle AI Agent Studio for Fusion Applications offered by O
 - Step 8 : Then we will be directed to the Agent definition which has tools and Topics. > add tools and business objects to the tools section > add a topic 
 - Step 9 : Add/edit agent team ( agent team is the work flow to perform a set of tasks) > and test
 
-### Demo: Explore AI Agent studio
-- 'Demonstration'
+## Building Workflow Agents
+
+### Agentic Patterns - Understanding Workflow Agents
+
+|              | Workflow Agents | Hierarchical Agents |
+|Execution Model| Policy-bound orchestration with contextual reasoning | LLM-led decomposition with delegated specialists|
+|Optimized for | Predictability, auditability, SLA stability | Discovery, planning, synthesis under uncertainity|
+|Best fit | Structured processes where rules/policies are known and outcomes must repeat | Ambiguous problems with many possible paths and evolving goals |
+| Strengths | End-to-end steps, approvals, retries, state management, traceability |
+| Primary goal | Consistent, compliant outcomes at scale | Find the right plan/ answer under uncertainity|
+
+- Static rule-based workflow engines can execute sequences, but,
+  - Can't reason or infer from context
+  - Can't Adapt to changing state/ new facts
+  - Can't Handle ambiguity without human intervention
+  - Can't learn from what happens inside the process
+
+- Workflow AGENTS Enable,
+  - Dynamic Path selection
+  - Contextual decision-making
+  - Multi-turn reasoning
+  - Parallel branching
+  - Multi agent Collaboration
+  - Self-correction when inputs are missing, inconsistent or fail
+
+### Designing Workflow Agents
+
+<img width="1365" height="767" alt="steps-decisions-key Questions" src="https://github.com/user-attachments/assets/7bdc9e0d-ef7a-4ba0-b049-55b188d5f3bc" />
+
+### Workflow Agents : Building Blocks
+
+- There are nodes as building blocks
+<img width="1365" height="767" alt="Different types of nodes" src="https://github.com/user-attachments/assets/926299a3-629e-4e73-a64c-3e0f088bf49b" />
+
+## Security and Governance
+
+### Security Concepts
+- Enable Role/user based and Pillar (CX, ERP, HCM, SCM) based access
+
+### Security Configurations
+- 
+
 
 
 
