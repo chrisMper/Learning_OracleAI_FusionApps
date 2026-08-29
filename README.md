@@ -30,6 +30,38 @@ Notes for the course Oracle AI Agent Studio for Fusion Applications offered by O
 - The roadmap of 'Deployment' : Agent Studio > Agent Platform > End User Experience > Monitoring and Evaluation
 -  Embedded and Custom AI <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/9724b028-6fa2-4572-adf5-75fcc6c91129" />
 
+## AI Agent Studio: Tools, Configurations and Demo
+
+### Tool Configuration and Usage
+- Best Practices : Clear precise Tool Descriptions, Use Human-in-the-loop Thoughtfully, Limit exposed fields in business objects, Validate inputs, etc...
+#### What is a BUSINESS OBJECT?
+- It connects AI Agent and Fusion app : AI Agent > Business Object > Fusion API
+- It specifies the functions that the Agent can do
+- Example : Service Request Object : Get all service requests, Create new service request, Find request by SRNumber, Add message to a service request...
+
+### Oracle AI Agent Studio: Deep Dive into Tools
+
+- Examples for published agents <img width="1365" height="702" alt="image" src="https://github.com/user-attachments/assets/30c7607d-79e4-4495-991f-bdddedb02d2e" />
+- Example for Business Object which has Tool code, family, product, description, human approval and its functions <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/707c9b46-a45d-4a16-9c0a-d93a554d0af9" />
+
+#### Creating a Business Object
+
+- When creating a business object you must observe the 'REST API for Oracle Fusion Cloud HCM', it has the documentations for the Endpoints
+- Step 1 : Add new business Object
+- Step 2 : Pick a Family > pick a product > Give a name > Then a code will be Generated > Give a resource type > Give the resource path (the endpoint of the REST API)
+- Step 3 : Add Business object functions : Click on 'Add from Specifications' > it opens a popup 'Select an operation' with the relevant endpoint >  in the dropdown there select a child object > it directs to a scenario
+- <img width="1365" height="767" alt="Creating a New Business Object" src="https://github.com/user-attachments/assets/cff700b5-34fc-48b6-b572-163f0068c18d" />
+- Step 4 : Add a new Scenario : it has a name,  description, operation type and resource path, headers, Parameters and Business Object Fields, examples Usages
+- Step 5 : Under Parameters and business object Fields we can Add Fields from Specification > it gives a set of business object Fields to select <img width="1365" height="767" alt="Adding Fields from specification" src="https://github.com/user-attachments/assets/3967c3a2-5c5a-4132-8dd5-25df0b65a145" />
+- Step 6 : Add business object tool : Give a Tool type, Tool Name, tool code, family and product > Add a business object
+- Step 7 : Add a new Agent : Give an Agent name, Agent code, family, product, maximum interactions, Description, prompt <img width="1365" height="767" alt="Creating a New Agent" src="https://github.com/user-attachments/assets/8f9f7cf0-df43-4ec4-947b-91c9a5f24d41" />
+- Step 8 : Then we will be directed to the Agent definition which has tools and Topics. > add tools and business objects to the tools section > add a topic 
+- Step 9 : Add/edit agent team ( agent team is the work flow to perform a set of tasks) > and test
+
+### Demo: Explore AI Agent studio
+- 'Demonstration'
+
+
 
 
 
