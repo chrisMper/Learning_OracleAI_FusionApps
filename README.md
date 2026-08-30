@@ -99,7 +99,30 @@ Notes for the course Oracle AI Agent Studio for Fusion Applications offered by O
 - Enable Role/user based and Pillar (CX, ERP, HCM, SCM) based access
 
 ### Security Configurations
-- 
+- Before we start we have to import Resource and user application security data
+- Enable permission groups and connect the custom roles to relevant connections.   
+<img width="1288" height="639" alt="image" src="https://github.com/user-attachments/assets/90e4f930-fbab-4203-81d3-1113195af18b" />
+
+## Fusion AI Agents and Workflow Agents : Use cases and Live Demonstrations
+
+### Demo: Real-world Use Cases for CX
+
+<img width="1365" height="767" alt="Sales Quote Generator" src="https://github.com/user-attachments/assets/8b21ae9a-715a-4a98-8dc1-fbe2a981cd7f" />
+
+### Demo: Real-World Use cases for ERP
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/6b57cb2d-b6a4-486a-ab07-60e2a006a7ff" />
+
+### Demo : Real world Use cases for HCM
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/bc32c910-ff70-4fac-b7e9-525bb7ba1855" />
+
+### Demo: Oracle Delivered SCM Templates (Sales Promotions Advisor)
+
+<img width="1339" height="767" alt="image" src="https://github.com/user-attachments/assets/87461040-7735-4faf-bf20-e9a520d78fd4" />
+
+
+
 
 
 
